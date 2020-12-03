@@ -18,7 +18,6 @@ func (t *Toboggan) calculateSlope(sx, sy int) int {
 	y := 0
 	trees := 0
 	for y < t.length-1 {
-		// Move 3 left 1 down?
 		x += sx
 		y += sy
 		if t.lines[y][x%t.width] == '#' {
