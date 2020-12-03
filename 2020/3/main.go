@@ -34,7 +34,6 @@ func (t *Toboggan) part1() int {
 }
 
 func (t *Toboggan) part2() int {
-	// Refactor into struct
 	return t.calculateSlope(1, 1) * t.calculateSlope(3, 1) * t.calculateSlope(5, 1) * t.calculateSlope(7, 1) * t.calculateSlope(1, 2)
 }
 
